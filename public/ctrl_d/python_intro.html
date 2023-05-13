@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<title>Introduction to Python</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Luke Schwaller</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Resume</a></li>
+							<li class="active"><a href="ctrl_d.html">CTRL_D</a></li>
+							<li><a href="about_me.html">About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/LukeSchwaller" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/lukeschwaller/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.instagram.com/lukeschwaller" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/lkschwaller45" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Introduction to Python</h1>
+								</header>
+							</section>
+
+							<section class="major">
+								<figure>
+								<img src="images/code-python.png" width=100%; height="auto" alt="A Python Script" />
+									<figcaption>
+									<span class="caption">A Python Script.</span>
+									<i class="photo-credit">Photo by @JohnsonMartin.</i>
+								  </figcaption>
+								</figure>
+								<p style="margin-bottom:2cm"></p>
+								<h2>Rough Start</h2>
+								<p style="text-indent: 50px;">
+									<h5 style="text-align: center;">It is only the first time that counts</h5>
+									<h5 style="text-align: center;"> 					- a french nobleman</h5>
+								</p>
+								<p style="text-indent: 50px;">
+									A fact of life, is that the first step is always the hardest. Getting out of bed sucks,
+									moving to a new area is terrifying, and getting that first job out of college can sometimes
+									come only after a hundred panic attacks. This same sucky introduction applies to learning new skills
+									and starting new hobbies. Adding to this innate rough start, when the skill is something
+									spoken of socially as a complex weedy mess like programming is spoke of, it is no wonder that
+									people are terrified to start actually programming. I can't claim the role of Mr. Miagi,
+									there's simply no teacher in the world who can make you learn to program without your input.
+									What I can offer here, is some good first steps that rely only on knowledge you would have learned in
+									any school.
+								</p>
+								<h2>Before you can walk, you gotta put on shoes</h2>
+								<p style="text-indent: 50px;">
+									You're not gonna learn to play football without gear, and you can't play guitar without the guitar.
+									So how are we gonna start programming without an IDE? IDE stands for integrated development
+									environment, but the short story of it is that it's a fancy notepad where we'll get
+									hints and tools to allow us a much easier time learning the basic syntax of python.
+									IDEs come in many flavors and colors, but I'm of the belief that Pycharm is the best beginner
+									IDE for python, and it has really great documentation that can be found here:
+									<h5 style="text-align: center;">
+									<a href="https://www.jetbrains.com/pycharm/download/#section=windows ">
+								 		Click me to download pycharm community edition
+									</a>
+									</h5>
+									Once you download the community edition of pycharm, you'll want to grab the actual
+									python download as well. Think of it as letter and mailbox kind of system, the letter is
+									your pycharm IDE, where you can write whatever you want to communicate, and the mailbox is your
+									python download which takes in the letter and directs it where it needs to go in order
+									to complete the communication. You can download python here, make sure when you install it
+									you check the box to add python to PATH. This is extremely helpful for some advanced programming concepts.
+									<h5 style="text-align: center;">
+									<a href="https://www.python.org/downloads/">
+								 		Click me to download python
+									</a>
+									</h5>
+									As long as you install python before you open pycharm for the first time, it should walk you through selecting
+									the python version you downloaded as your interpreter (once again think of the mailbox analogy, the mailbox understands
+									the content on the letter to direct it where to go). If not, you can use pycharm's documentation on selecting an interpreter
+									for your "project". A project is a local folder where you store your code and any dependencies of that code. In here we'll write
+									all of our python scripts
+								</p>
+								<h2> Writing the first script</h2>
+								<p style="text-indent: 50px;">
+									Once you've gotten this far pycharm should have given you an initial python file called main.
+									Go ahead and delete the contents of this file, as we'll rewrite everything we need! Today we want
+									a really simple program, one that might not be really useful in our daily lives, but will cover most basics of python.
+									As such, we're going to rely on good ol' high school algebra and create a program that when given an array of x values
+									will output an array of y values based on an equation we define.
+								</p>
+								<h3>Mathematics</h3>
+								<p style="text-indent: 50px;">
+									Let's back up for a brief second and explain the math we want to achieve here. An equation is an expression
+									that tells us how two (or more) things relate. You'll probably know the classic equation
+									<h5 style="text-align: center;"> Y = M * X + B</h5>
+									This equation is the equation of any line, and is controlled by the x you input to get a y value.
+									In this equation, M is the slope (or how quickly your line rises) and B is the y intercept (where the line crosses the y-axis of
+									a graph. Typically when looking at an equation you think of entering one x value to get one y value, but in our case
+									we want to feed this equation an array (or commonly called a list) of x values, and have it give us an array of y values.
+									By doing this, we can get enough points that if we wanted to, we could graph the line itself! The final thing to understand, is that sometimes
+									these equations are called functions if you look at them in broader terms.
+								</p>
+								<h3>Coding the Equation</h3>
+								<p style="text-indent: 50px;">
+									My goal here is to keep this extremely simple so that this could be your first program, so let's write this equation
+									as just a simple function in a program. The correct name for a function in a program is a "Method". Methods allow us
+									to feed input into them, and return outputs. We can define a method by using the key word def (as in definition). Let's
+									refer to this first method as "Line_Calculator"
+								<pre class="line-numbers">
+
+									<code class="language-python">def Line_Calculator(x_values):</code>
+								</pre>
+									In this method defintion, we've used the keyword def, alongside a title that we chose.
+									Additionally, by using (x_values) we've instructed our method to expect that we will be
+									giving it an input of a variable known as a x_values. Now we know that we expect our
+									x_values variable to be an array of numbers that we wish to input, but at this time our program actually
+									has no idea what x_values is, to it is only a name.
+								</p>
+								<p style="text-indent: 50px;">
+									Now let's keep this first draft really simple, and say we only care about one slope, and
+									one y-intercept. As such, let's plot a rather boring line, with a slope of 1, and an intercept at 0.
+									Now if we think of the math behind this line, we can already know that this means we will get out
+									 a y value of exactly what we put in for our x value, as 1 times any number is 1. Let's write this out though!
+								<pre class="line-numbers">
+									<code style="text-align: left;">
+										def Line_Calculator(x_values):
+											y_values = 1 * x_values
+											return y_values
+									</code>
+								</pre>
+
+								</p>
+								<h2>In Conclusion</h2>
+								<p style="text-indent: 50px;">
+
+								</p>
+								<h3>Leave a Comment</h3>
+							  	<form action="post_comment.php" method="post" id="commentform">
+
+									<label for="comment_author" class="required">Your name</label>
+									<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+									<label for="email" class="required">Your email;</label>
+									<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+									<label for="comment" class="required">Your message</label>
+									<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+									<-- comment_post_ID value hard-coded as 1 -->
+									<input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+									<input name="submit" type="submit" value="Submit comment" />
+
+							  	</form>
+							</section>
+					</div>
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://twitter.com/LukeSchwaller" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.linkedin.com/in/lukeschwaller/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.instagram.com/lukeschwaller" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/lkschwaller45" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
